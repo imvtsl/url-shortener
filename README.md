@@ -31,15 +31,15 @@ Java 11
 Gradle
 
 
-#Command to build application:
+# Command to build application:
 **./gradlew build**
 
 
-#Command to run application:
+# Command to run application:
 **./gradlew bootRun**
 
 
-#Command to run automated unit tests:
+# Command to run automated unit tests:
 **./gradlew test**
 
 
