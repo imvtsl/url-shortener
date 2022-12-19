@@ -1,23 +1,33 @@
 # url-shortener
+
 URL SHORTENER
+
 The source repository for URL Shortener project.
-It provides APIs for converting length URls into shorter URls. For example:
-Input URL: "https://www.google.com/"
-Output URL: "vat.sl/1"
+
+It provides APIs for converting length URls into shorter URIs. For example:
+
+Input URI: "https://www.google.com/"
+
+Output URI: "vat.sl/1"
 
 
 It also provides mechanism to fetch the original link from the short link.
 
 
 The application has centralized exception handling using @ControllerAdvice.
+
 The application uses SLF4J and logback for logging.
+
 The application uses H2 db (in-memory DB).
+
 The application is configured with graceful shutdown.
+
 The application performs input validations.
 
 
 # Prerequisites to run the application:
 Java 11
+
 Gradle
 
 
@@ -54,5 +64,6 @@ While application is running, open below links in the browser:
 
 
 http://localhost:8080/projects/shortener/swagger-ui/index.html
+
 http://localhost:8080/projects/shortener/v3/api-docs/
 
