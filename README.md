@@ -4,7 +4,7 @@ URL SHORTENER
 
 The source repository for URL Shortener project.
 
-It provides APIs for converting length URls into shorter URIs. For example:
+It provides APIs for converting long URls into shorter URIs. For example:
 
 Input URI: "https://www.google.com/"
 
